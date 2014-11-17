@@ -22,9 +22,26 @@ while True:
     key = getkey()
     print(key)
     
-    if key == b'n':
-        Popen(["paplay", "sounds/drum_0.wav"])
-    elif key == b'j':
-        Popen(["paplay", "sounds/snare_1.wav"])
-    elif key == b'a':
-        Popen(["paplay", "sounds/snare_0.wav"])
+    if key == b'0':
+        Popen(["paplay", "sounds/bop_kick_snares_off_1.ogg"])
+    elif key == b'1':
+        Popen(["paplay", "sounds/turn_snare_on_1.ogg"])
+    elif key == b'2':
+        Popen(["paplay", "sounds/turn_snare_on_2.ogg"])
+    elif key == b'3':
+        Popen(["paplay", "sounds/floor_tom_snares_on_4.ogg"])
+    elif key == b'4':
+        Popen(["paplay", "sounds/hihat_closed_2.ogg"])
+    elif key == b'5':
+        Popen(["paplay", "sounds/snare_snares_on_3.ogg"])
+    elif key == b'6':
+        Popen(["paplay", "sounds/hihat_close_5.ogg"])        
+    elif key == b'7':
+        Popen(["paplay", "sounds/flat_ride_6.ogg"])
+    elif key == b'8':
+        Popen(["paplay", "sounds/rack_tom_snares_off_2.ogg"])
+    elif key == b'9':
+        Popen(["paplay", "sounds/ride_2.ogg"])
+
+
+
